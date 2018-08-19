@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YAHOO! FINANCE</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css">
+
+    <script src="myScript.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="./index.html" target = "_blank">Finance Home</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Watchlists</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My Portfolio <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="./carousel.html" target = "_blank">Portfolio A</a></li>
+          <li><a href="#">Portfolio B</a></li>
+          <li><a href="#">Portfolio C</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Markets</a></li>
+      <li><a href="#">Industries</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h1 class="niceFont" id="myHeader">YAHOO! FINANCE</h1>
+    <br>
+</div>
+
+
+<table id="example" class="table  table-bordered table-sm" style="width:100%" >
+    <thead>
+    <tr>
+
+        <th>Symbol</th>
+        <th>Last Price</th>
+        <th>Change</th>
+        <th>% Chg</th>
+        <th>Currency</th>
+        <th>Market Time</th>
+        <th>Volume</th>
+        <th>Shares</th>
+        <th>Avg Vol (3m)</th>
+        <th>Day Range</th>
+        <th>52-Wk Range</th>
+        <th>Day Chart</th>
+        <th>Market Cap</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th><a href = "https://finance.yahoo.com/quote/SONC?p=SONC" target = "_blank">SONC</a></th>
+        <th>26.71</th>
+        <th class="negative">-0.13</th>
+        <th class="negative"> -0.48%</th>
+        <th> USD</th>
+        <th>Apr 20</th>
+        <th>EDT</th>
+        <th>737.19k</th>
+        <th>813.01k</th>
+        <th>*</th>
+        <th>*</th>
+        <th>*</th>
+        <th>992.41M</th>
+    </tr>
+
+    <tr>
+        <th><a href = "https://finance.yahoo.com/quote/IBM?p=IBM" target = "_blank">IBM</a></th>
+        <th>144.90</th>
+        <th class="negative">-2.80</th>
+        <th class="negative">-1.90%</th>
+        <th>USD</th>
+        <th>Apr 20</th>
+        <th>EDT</th>
+        <th>8.27M</th>
+        <th>5.26M</th>
+        <th>*</th>
+        <th>*</th>
+        <th>*</th>
+        <th>133.48B</th>
+    </tr>
+
+    <tr>
+        <th><a href = "https://finance.yahoo.com/quote/CVS?p=CVS" target = "_blank">CVS</a></th>
+        <th>65.12</th>
+        <th class="negative">-0.24</th>
+        <th class="negative">-0.37%</th>
+        <th>USD</th>
+        <th>Apr 20</th>
+        <th>EDT</th>
+        <th>6.17M</th>
+        <th>8.59M</th>
+        <th>*</th>
+        <th>*</th>
+        <th>*</th>
+        <th>66.20B</th>
+    </tr>
+
+    <tr>
+        <th><a href = "https://finance.yahoo.com/quote/SNE?p=SNE" target = "_blank">SNE</a></th>
+        <th>49.76</th>
+        <th class="positive">+0.03</th>
+        <th class="positive">+0.06%</th>
+        <th>USD</th>
+        <th>Apr 20</th>
+        <th>EDT</th>
+        <th>1.34M</th>
+        <th>1.34M</th>
+        <th>*</th>
+        <th>*</th>
+        <th>*</th>
+        <th>63.69B</th>
+    </tr>
+
+    <tr>
+        <th><a href = "https://finance.yahoo.com/quote/TXN?p=TXN" target = "_blank">TXN</a></th>
+        <th>99.96</th>
+        <th class="negative">-1.33</th>
+        <th class="negative">-1.31%</th>
+        <th>USD</th>
+        <th>Apr 20</th>
+        <th>EDT</th>
+        <th>7.86M</th>
+        <th>6.26M</th>
+        <th>*</th>
+        <th>*</th>
+        <th>*</th>
+        <th>98.27B</th>
+    </tr>
+
+    <tr>
+        <th><a href = "https://finance.yahoo.com/quote/INTC?p=INTC" target = "_blank">INTC</a></th>
+        <th>51.53</th>
+        <th class="negative">-0.69</th>
+        <th class="negative">-1.32%</th>
+        <th>USD</th>
+        <th>Apr 20
+        <th>EDT</th>
+        <th>26.91M</th>
+        <th>32.96M</th>
+        <th>*</th>
+        <th>*</th>
+        <th>*</th>
+        <th>241.07B</th>
+    </tr>
+
+    <tr>
+        <th><a href = "https://finance.yahoo.com/quote/AMD?p=AMD" target = "_blank">AMD</a></th>
+        <th>9.99</th>
+        <th class="negative">-0.12</th>
+        <th class="negative">-1.19%</th>
+        <th>USD</th>
+        <th>Apr 20</th>
+        <th>EDT</th>
+        <th>39.01M</th>
+        <th>60.49M</th>
+        <th>*</th>
+        <th>*</th>
+        <th>*</th>
+        <th>9.68B</th>
+    </tr>
+
+    <tr>
+        <th><a href = "https://finance.yahoo.com/quote/MCD?p=MCD" target = "_blank">MCD</a></th>
+        <th>158.77</th>
+        <th class="negative">-0.76</th>
+        <th class="negative">-0.48%</th>
+        <th>USD</th>
+        <th>Apr 20</th>
+        <th>EDT</th>
+        <th>3.96M</th>
+        <th>5.00M</th>
+        <th>*</th>
+        <th>*</th>
+        <th>*</th>
+        <th>124.81B</th>
+    </tr>
+
+    <tr>
+        <th><a href = "https://finance.yahoo.com/quote/WMT?p=WMT" target = "_blank">WMT</th>
+        <th>86.98</th>
+        <th class="negative">-0.91</th>
+        <th class="negative">-1.04%</th>
+        <th>USD</th>
+        <th>Apr 20</th>
+        <th>EDT</th>
+        <th>8.32M</th>
+        <th>11.85M</th>
+        <th>*</th>
+        <th>*</th>
+        <th>*</th>
+        <th>256.65B</th>
+    </tr>
+
+    <tr>
+        <th><a href = "https://finance.yahoo.com/quote/AAPL?p=AAPL" target = "_blank">AAPL</th>
+        <th>165.72</th>
+        <th class="negative">-7.08</th>
+        <th class="negative">-4.10%</th>
+        <th>USD</th>
+        <th>Apr 20</th>
+        <th>EDT</th>
+        <th>65.49M</th>
+        <th>38.46M</th>
+        <th>*</th>
+        <th>*</th>
+        <th>*</th>
+        <th>840.86B</th>
+    </tr>
+
+    <tr>
+        <th><a href = "https://finance.yahoo.com/quote/AMZN?p=AMZN" target = "_blank">AMZN</th>
+        <th>1,527.49</th>
+        <th class="negative">-29.42</th>
+        <th class="negative">-1.89%</th>
+        <th>USD</th>
+        <th>Apr 20</th>
+        <th>EDT</th>
+        <th>5.54M</th>
+        <th>6.28M</th>
+        <th>*</th>
+        <th>*</th>
+        <th>*</th>
+        <th>739.47B</th>
+    </tr>
+
+    <tr>
+        <th><a href = "https://finance.yahoo.com/quote/MSFT?p=MSFT" target = "_blank">MSFT</a></th>
+        <th>95.00</th>
+        <th class="negative">-1.11</th>
+        <th class="negative">-1.15%</th>
+        <th>USD</th>
+        <th>Apr 20</th>
+        <th>EDT</th>
+        <th>31.15M</th>
+        <th>34.55M</th>
+        <th>*</th>
+        <th>*</th>
+        <th>*</th>
+        <th>731.48B</th>
+    </tr>
+
+    </tbody>
+
+    <tfoot>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+</tfoot>
+
+</table>
+
+<!--
+<div class="container">
+
+  <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myNewFunction()">Try it</button>
+
+</div>
+-->
+
+</body>
+</html>

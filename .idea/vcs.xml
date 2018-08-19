@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AgileTradeTracker/trade-tracker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Elevator/assets/js" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finance" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JQueryTutorials" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JavascriptAndTheDom" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JumboTron" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ToDoList" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Weather_App/final" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Wiki" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/assignmentThon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bowl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ceasersCipher.c" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs50" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs50/cash2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs50/hello" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hackathon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/js" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/music_helpers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new_samples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python_from_scratch_joshi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python_samples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stockDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/superbackup-trade-tracker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trade-tracker" vcs="Git" />
+  </component>
+</project>

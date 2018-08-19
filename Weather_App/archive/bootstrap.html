@@ -1,0 +1,140 @@
+<html>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+<script>
+var options = {
+  enableHighAccuracy: true,
+  timeout: 5000,
+  maximumAge: 0
+};
+
+function success(pos) {
+  var crd = pos.coords;
+
+  console.log('Your current position is:');
+  console.log(`Latitude : ${crd.latitude}`);
+  console.log(`Longitude: ${crd.longitude}`);
+  console.log(`More or less ${crd.accuracy} meters.`);
+
+
+  document.getElementById("crds").innerHTML =   'Your current position is: <br>' +
+  `Latitude : ${crd.latitude} <br>` +
+  `Longitude: ${crd.longitude} <br>` +
+  `More or less ${crd.accuracy} meters.`;
+
+}
+
+function myFunction(){
+  console.log('You clicked it!');
+  navigator.geolocation.getCurrentPosition(success, error, options);
+}
+
+function error(err) {
+  console.warn(`ERROR(${err.code}): ${err.message}`);
+}
+
+
+
+</script>
+
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+
+  .thick-blue-border {
+    border-color: lightblue;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+</style>
+
+<h2 class="red-text">The Weather App</h2>
+
+<!-- <p>Click here for <a href="#">weather photos</a>.</p> -->
+
+<div id = "data">
+  <h4>You are here:</h4>
+  <h4 id = "crds"></h4>
+  
+</div>
+
+<a href="#"><img class="smaller-image thick-blue-border" alt="A cute orange cat lying on its back. " src="images/coffeetime.gif"></a>
+
+<form> <!-- action="">-->
+  <label><input type="checkbox" name="personality"> Sparkly</label>
+  <label><input type="checkbox" name="personality"> Shiny</label>
+  <label><input type="checkbox" name="personality"> Cute</label>
+  <input type="text" placeholder="02806" required>
+    <button id = "btnZipCode" type="submit" onclick="myFunction()">Enter Your Zip Code</button> 
+</form>
+
+<p>Right Now:</p>
+<ul>
+  <li>Actual Temperature</li>
+  <li>Feels Like</li>
+  <li>Pressure</li>
+  <li>Wind</li>
+  <li>UV</li>
+</ul>
+
+<p>Today:</p>
+<ul>
+  
+  
+  Hour by Hour
+      <li>5 am</li>
+      <li>6 am</li>
+      <li>Sunrise</li>
+      <li>7 am</li>
+      <li>8 am</li>
+      <li>9 am</li>
+      <li>10 am</li>
+      <li>11 am</li>
+      <li>12 pm</li>  
+      <li>1 pm</li> 
+      <li>2 pm</li> 
+      <li>3 pm</li> 
+      <li>4 pm</li>      
+      <li>5 pm</li> 
+      <li>6 pm</li> 
+      <li>7 pm</li> 
+      <li>Sunset</li>
+      <li>8 pm</li> 
+      <li>9 pm</li> 
+      <li>10 pm</li> 
+      <li>11 pm</li> 
+
+
+
+  </li>
+  <li>Wind</li>
+  <li>UV</li>
+</ul>
+
+<p>Seven Day Forecast:</p>
+<ol>
+  <li>Monday High: Low: Description: </li>
+  <li>Tuesday High: Low Description:</li>
+  <li>Wednesday High: Low Description:</li>
+  <li>Thursday High: Low Description:</li>
+  <li>Friday High: Low Description:</li>
+  <li>Saturday High: Low Description:</li>
+  <li>Sunday High: Low Description:</li>
+</ol>
+
+</html>

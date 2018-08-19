@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi {{name}}</title>
+</head>
+<body>
+
+{% for n in name %}
+<h1>This is {{name[1]}}</h1>
+{% endfor %}
+
+{% if 'there' in name2 %}
+<h1>{{name2}}</h1>
+{% endif %}
+
+{% for n in name3 %}
+<h1>Hi there {{n}}</h1>
+{% endfor %}
+
+
+</body>
+</html>

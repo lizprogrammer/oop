@@ -1,0 +1,29 @@
+1. Easy to Use
+It is extremely an easy and speedy procedure to begin with Bootstrap. Bootstrap is very adaptable too. You can utilize Bootstrap along with CSS, or LESS, or also with Sass [after you download the Sass version].
+
+2. Responsiveness
+Every year mobile devices persist to grow hugely popular, and the requirement to have a responsive website has become compulsory and important too. As the fluid grid layout amends vigorously to the appropriate screen resolution, thus crafting a mobile-ready site is a smooth and easy task along with Bootstrap. With the use of ready-made classes of Bootstrap, you can recognize the number of spots in the grid system that you would like each column to engage in. Then only you can identify at whichever point you would like your columns to load in horizontal position, instead of vertically to exhibit accurately on mobile appliances.
+
+3. The Speed of the Development
+One of the main benefits of utilizing Bootstrap happens to be the speed of the development. While driving out a new, fresh website or application swiftly, you should certainly reflect upon utilizing Bootstrap. Instead of coding from scrape, Bootstrap lets you to use ready-made coding blocks in order to assist you in setting up. You can blend that along with CSS-Less functionality and cross-browser compatibility that can give way to saving of ample hours of coding. You can even buy ready-made Bootstrap themes and alter them to fit your requirements, for gaining the quickest potential route.
+
+4. Customizable Bootstrap
+The Bootstrap can be customized as per the designs of your project. The web developers can make a choice to select the aspects which are required which can be simply complete by utilizing Bootstrap customize page. You just have to tick off all the aspects that you do not require, such as- Common CSS: typography, code, grid system, tables, buttons, forms, print media styles; Components: input groups, button groups, pager, labels, navs, navbar, badges, pagination; JavaScript components: dropdowns, popovers, modals, tooltips, carousels; Utilities: Responsive utilities, basic utilities. Thus your custom version of Bootstrap is all set for download process.
+
+5. Consistency
+Few Twitter employees firstly expanded Bootstrap as a framework for boosting the consistency across interior tools. But later the Co-founder Mark Otto after understanding the actual potential released in August 2011 the first open-source version of Bootstrap. He even portrayed how the Bootstrap was enlarged with the use of one core concept- pairing of designers along with developers. Thus Bootstrap became popular on Twitter.
+
+6. Support
+As Bootstrap holds a big support community, you can be provided with help whenever there comes any problem. The creators always keep the Bootstrap updated. Presently Bootstrap is hosted, expanded, and preserved on the GitHub along with more than 9,000 commits, as well as more than 500 contributors.
+
+7. Packaged JavaScript Components
+Bootstrap approaches with a pack of JavaScript components for including the functionality that crafts it in simple way for operating things, such as tooltips, modal windows, alerts, etc. You can even leave out the writing scripts completely.
+
+8. Simple Integration
+Bootstrap can be simply integrated along with distinct other platforms and frameworks, on existing sites and new ones too. You can also utilize particular elements of Bootstrap along with your current CSS.
+
+9. Grid
+Bootstrap has the capability to utilize a 12-column grid that is responsive. It also upholds offset and nested elements. The grid can be maintained in a responsive mode, or you can simply modify it to a secured layout.
+
+10. Pre-styled Components
+Bootstrap approaches with pre-styled components for alerts, dropdowns, nav bars, etc. Hence, being a feature-rich, Bootstrap provides numerous advantages of using it. Hope you would have understood the above reasons so that you can easily use Bootstrap for making superb web designs for your sites!
